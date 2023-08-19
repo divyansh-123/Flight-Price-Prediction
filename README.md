@@ -1,6 +1,6 @@
 # Flight Fare Price Prediction Web Application
 
-This repository contains a Flight Fare Price Prediction web application that uses a Random Forest Regression model to predict flight fares. The model achieves an R-squared score of 0.84 and incorporates feature engineering and exploratory data analysis (EDA) techniques. The application is built using Flask framework to provide a user-friendly interface for users to input flight details and obtain fare predictions.
+This repository contains a Flight Fare Price Prediction web application that utilizes a Random Forest Regression model to predict flight fares. The model achieves an R-squared score of 0.84 and incorporates feature engineering and exploratory data analysis (EDA) techniques. The application is built using Flask framework to provide a user-friendly interface for users to input flight details and obtain fare predictions.
 
 ## Table of Contents
 
@@ -14,17 +14,17 @@ This repository contains a Flight Fare Price Prediction web application that use
 
 ## Project Overview
 
-This project focuses on predicting flight fares using a Random Forest Regression model. It involves several key steps:
+This project focuses on predicting flight fares using a Random Forest Regression model. The steps involved include:
 
-1. **Data Collection**: Gather flight data including features such as departure and arrival locations, departure time, airlines, etc.
+1. **Data Collection**: The dataset was sourced from Kaggle, containing flight information such as departure and arrival locations, departure time, airlines, etc.
 
-2. **Exploratory Data Analysis (EDA)**: Analyze the collected data to understand patterns, correlations, and potential outliers. EDA helps in identifying useful features for the prediction model and provides insights into the dataset.
+2. **Exploratory Data Analysis (EDA)**: The Kaggle dataset was thoroughly analyzed through exploratory data analysis techniques to uncover patterns, correlations, and potential outliers. EDA helped in identifying useful features for the prediction model and providing insights into the dataset.
 
-3. **Feature Engineering**: Enhance the dataset by creating new features, handling missing values, and converting categorical variables into numerical representations.
+3. **Feature Engineering**: The dataset underwent feature engineering processes, including handling missing values, converting categorical variables into numerical representations (one-hot encoding), and creating new features to enhance predictive power.
 
-4. **Model Development**: Build a Random Forest Regression model to predict flight fares based on the engineered features. Tune hyperparameters to achieve optimal performance.
+4. **Model Development**: A Random Forest Regression model was developed using the engineered features. Hyperparameters were tuned to achieve optimal performance on the test dataset.
 
-5. **Web Application**: Develop a web application using Flask that allows users to input flight details and obtain fare predictions from the trained model.
+5. **Web Application**: A user-friendly web application was built using Flask framework. The application allows users to input flight details and receive fare predictions from the trained model.
 
 ## Model Performance
 
@@ -34,9 +34,9 @@ The developed Random Forest Regression model achieves an R-squared score of 0.84
 
 - **Random Forest Regression**: The core of the prediction model, utilizing an ensemble of decision trees to make accurate fare predictions.
   
-- **Feature Engineering**: Engineered features from raw data to enhance predictive power, including one-hot encoding for categorical variables and handling missing values.
+- **Feature Engineering**: Engineered features from the Kaggle dataset to enhance predictive power, including one-hot encoding for categorical variables and handling missing values.
   
-- **Exploratory Data Analysis (EDA)**: Thoroughly analyzed the dataset through visualizations and statistical summaries to uncover insights and correlations.
+- **Exploratory Data Analysis (EDA)**: Thoroughly analyzed the Kaggle dataset through visualizations and statistical summaries to uncover insights and correlations.
 
 - **Web Application**: The Flask-based web application offers a user-friendly interface for users to input flight details and receive fare predictions.
 
