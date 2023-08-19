@@ -104,10 +104,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 5. Create a pull request detailing your changes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 Feel free to customize this README according to your project's specific details and structure. Good luck with your Flight Fare Price Prediction web application!
